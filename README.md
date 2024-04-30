@@ -14,14 +14,13 @@ This application demonstrates a simple Node.js server using Express, Sequelize O
 3. Install the dependencies by running npm install.
 4. Create a .env file in the root directory of the project and add the following environment variables:
 
-
-PORT=5000
-MYSQL_DB=basic_task
-MYSQL_PASSWORD=sql123
-MYSQL_USER=root
-MYSQL_HOST=localhost
-MYSQL_DIALECT=mysql
-JWT_SECRET=a4ea3e7e75669843eb31a6e27ebe3822204137dbd2e3f8c956269a46808735862a10add4974c3ebd6472ad9715d8b8e3f754456fd6a53412368cd6e5a1a3745f
+``PORT=5000``
+``MYSQL_DB=your_db_name``
+``MYSQL_PASSWORD=your_db_root_password``
+``MYSQL_USER=root``
+``MYSQL_HOST=localhost``
+``MYSQL_DIALECT=mysql``
+``JWT_SECRET=your_jwt_secret``
 
 
 5. Ensure your MySQL server is running and accessible with the credentials provided in the .env file.
